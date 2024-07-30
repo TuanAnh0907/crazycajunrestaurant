@@ -517,6 +517,54 @@
     <link rel="apple-touch-icon" href="https://crazycajunrestaurant.files.wordpress.com/2017/11/pepper.png?w=180"/>
     <meta name="msapplication-TileImage"
           content="https://crazycajunrestaurant.files.wordpress.com/2017/11/pepper.png?w=270"/>
+    <style type="text/css">
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            position: absolute!important;
+            margin: 0;
+            padding: 1.5rem 0;
+            cursor: pointer;
+            background-color: #202020;
+            border-radius: 3px;
+        }
+
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: white;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+
+        #toplinks .menu {
+            display: inline-block;
+            list-style: none;
+        }
+
+    </style>
 </head>
 
 <body
@@ -550,6 +598,13 @@
                             <li id="menu-item-549"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-549"><a
                                 href="/join-our-team/">JOIN OUR TEAM</a></li>
+                            <li id="menu-item-550" class="dropdown">
+                                <a href="#" title="Cities">Cities</a>
+                                <ul class="dropdown-content">
+                                    <li><a>Ha Noi</a></li>
+                                    <li><a>TP.Ho Chi Minh</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </nav><!-- #site-navigation -->
@@ -1216,7 +1271,7 @@
                         </div>
                     </section>
                     <section id="google_translate_widget-4" class="widget widget_google_translate_widget"><h2
-                        class="widget-title">Translate</h2>
+                        class="widget-title">Translate</h2>Jone
                         <div id="google_translate_element"></div>
                     </section>
                 </div>
